@@ -18,7 +18,7 @@ const MyProjects = () => {
           <a href="https://trip-app-2021.netlify.app/" target="_blank">
             <p className="project-description">
               TrippApp helps users enter, modify and delete their mileage and/or
-              car expenses during the whole year and get deductions while filing
+              car expenses during the year and get deductions while filing
               taxes.
             </p>
           </a>
@@ -32,8 +32,7 @@ const MyProjects = () => {
           <a href="https://pern-store-dd-kr-js-mg.netlify.app/" target="_blank">
             <p className="project-description">
               PERN Famous Footwear is an online store that allows the
-              owner/employee to enter, modify and delete shoes in stock, add
-              them to the cart.
+              owner/employee to enter, modify and delete shoes in stock.
             </p>
           </a>
         </span>
