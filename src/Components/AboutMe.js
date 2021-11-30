@@ -1,6 +1,6 @@
 import React from "react";
 import myPhoto from "./my-photo2.jpg";
-import resume from "./resume.jpg";
+import resume from "./myResume.pdf";
 
 const AboutMe = () => {
   return (
