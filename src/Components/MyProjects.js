@@ -15,7 +15,7 @@ const MyProjects = () => {
             poster={tripAppPoster}
             primaryColor="red"
           />
-          <a href="https://trip-app-2021.netlify.app/" target="_blank">
+          <a href="https://trip-app-project.netlify.app/" target="_blank">
             <p className="project-description">
               TrippApp helps users enter, modify and delete their mileage and/or
               car expenses during the year and get deductions while filing
