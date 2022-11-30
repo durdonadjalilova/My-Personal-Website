@@ -1,7 +1,7 @@
 import React from "react";
-import emailIcon from "./email.png";
-import linkedinIcon from "./linkedin.png";
-import githubIcon from "./github.jpeg";
+import emailIcon from "./assets/email.png";
+import linkedinIcon from "./assets/linkedin.png";
+import githubIcon from "./assets/github.jpeg";
 
 const Contact = () => {
   return (
@@ -13,6 +13,7 @@ const Contact = () => {
       <a
         href="https://www.linkedin.com/in/durdona-djalilova-b144a4202/"
         target="_blank"
+        rel="noreferrer"
         className="contact-link"
       >
         <img src={linkedinIcon} alt="LinkedIn" />
@@ -21,6 +22,7 @@ const Contact = () => {
       <a
         href="https://github.com/durdonadjalilova"
         target="_blank"
+        rel="noreferrer"
         className="contact-link"
       >
         <img src={githubIcon} alt="Github" />

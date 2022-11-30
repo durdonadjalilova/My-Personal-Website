@@ -1,9 +1,9 @@
 import React from "react";
-import tripAppvideo from "./TripAppGiphy.mp4";
+import tripAppvideo from "./assets/TripAppVideo.mp4";
 import { ReactVideo } from "reactjs-media";
-import tripAppPoster from "./tripAppPoster.jpg";
-import PERNStoreVideo from "./PERN-Store.mp4";
-import PERNStorePoster from "./PERNStore.jpg";
+import tripAppPoster from "./assets/tripAppPoster.jpg";
+import ribbonAvailabilityVideo from "./assets/Ribbon Availability feature1.mp4";
+import ribbonAvailabilityPoster from "./assets/RibbonAvailabilityPoster.png";
 
 const MyProjects = () => {
   return (
@@ -15,24 +15,34 @@ const MyProjects = () => {
             poster={tripAppPoster}
             primaryColor="red"
           />
-          <a href="https://trip-app-project.netlify.app/" target="_blank">
+          <a
+            href="https://trip-app-project.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p className="project-description">
-              TrippApp helps users enter, modify and delete their mileage and/or
-              car expenses during the year and get deductions while filing
-              taxes.
+              TrippApp helps users enter, modify and delete their car(s)
+              details, mileage and/or car expenses for each car during the year
+              and get tax deductions while filing taxes.
             </p>
           </a>
-        </span>
-        <span id="PERN-store">
+        </span>{" "}
+        <span id="ribbon-availability">
           <ReactVideo
-            src={PERNStoreVideo}
-            poster={PERNStorePoster}
+            src={ribbonAvailabilityVideo}
+            poster={ribbonAvailabilityPoster}
             primaryColor="red"
           />
-          <a href="https://pern-store-dd-kr-js-mg.netlify.app/" target="_blank">
+          <a
+            href="https://www.loom.com/share/cd8c8c42817a4eceb34d691435bb3ca0"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p className="project-description">
-              PERN Famous Footwear is an online store that allows the
-              owner/employee to enter, modify and delete shoes in stock.
+              Ribbon Availability feature provides home buying agents and
+              lenders with Ribbon service availability info based on the
+              specific address/state/zip. It also allows data filtering in state
+              view search.
             </p>
           </a>
         </span>
