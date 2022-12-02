@@ -248,6 +248,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
 
   #tripApp-giphy {
@@ -255,7 +256,7 @@ body {
     height: auto;
     align-self: center;
   }
-  #PERN-store {
+  #ribbon-availability {
     margin-top: 5vh;
     width: 90vw;
     align-self: center;
